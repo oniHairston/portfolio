@@ -130,7 +130,48 @@ h2 {
     max-width: 620px;
     color: #555550;
     font-size: 1.1rem;
+    text-align: center;
     line-height: 1.7;
+}
+
+.con-pic,
+.pr-4 {
+
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+
+}
+
+.con-pic {
+    width: 44px;
+    height: 44px;
+}
+
+.con-pic:hover,
+.pr-4:hover {
+    transform: translateY(-3px);
+}
+
+.con-pic,
+.pr-4 {
+    transition: transform 0.15s ease;
+}
+
+.icon-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#contact .icon-row {
+    justify-content: center;
+}
+
+footer .icon-row {
+    justify-content: center;
+    margin-top: 0.75rem;
 }
 
 .project-list {
